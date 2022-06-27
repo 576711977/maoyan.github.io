@@ -1,0 +1,36 @@
+.city-space {
+    margin: 0.25rem 1rem 0 0;
+    /* width: 2.25rem; */
+    height: 1rem;
+    background: #dee1e6;
+    border-radius: 0.5rem;
+    display: inline;
+}
+.city-choose {
+    padding: 0.2rem;
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+    display: inline;
+    color: #666;    
+}
+.city-choose i {
+    font-size: 0.4rem;
+}
+ 
+.searchBarContainer {
+    padding: 12px;
+    border-bottom: solid 1px var(--adm-color-border);
+}
+
+.checkListContainer {
+    z-index: 999;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.myCheckList {
+    --border-top: 0;
+    --border-bottom: 0;
+}
